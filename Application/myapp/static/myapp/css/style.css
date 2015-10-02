@@ -1,0 +1,16 @@
+
+li
+{
+	color: purple;
+	font-size: 12pt;
+	font-style: italic;
+}
+img{
+	margin: 2px;
+	width: 100px;
+	height: 150px;
+}
+a.hover
+{
+	color : red;
+}

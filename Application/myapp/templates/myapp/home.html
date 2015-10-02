@@ -1,0 +1,9 @@
+{% extends "myapp/base.html" %}
+{% block content_section %}
+	 <ol>
+	 	{% for object in a %}
+	 		<a href="display/{{ object.book_title }}/"><li>{{ object.book_title }}</li></a>
+	 		<p>{{ object.book_description|truncatechars:150 }}  </p><br>
+	 	{% endfor %}
+	 </ol>
+{% endblock %}
