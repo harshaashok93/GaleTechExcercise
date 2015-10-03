@@ -3,7 +3,7 @@
 {% block content_section %}
 	<ol>
 		{% for object in a %}
-	 		<a href="/display/{{ object.book_title }}/">
+	 		<a href="/myapp/display/{{ object.book_title }}/">
 	 			<li id="list">{{ object.book_title }}</li>
 	 		</a>
 	 		<p style="color:white">{{ object.book_description|truncatechars:150 }}  </p><br>

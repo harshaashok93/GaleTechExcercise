@@ -13,10 +13,13 @@ Including another URLconf
     1. Add an import:  from blog import urls as blog_urls
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import include, url
+from django.conf.urls import url
 from django.contrib import admin
 from myapp import views
 urlpatterns = [
-	url(r'^admin/', admin.site.urls),
-	url(r'^myapp/', include('myapp.urls')),
+	url(r'^$', views.home, name='home'),
+
+	url(r'^display/(?P<book_id>[ A-Za-z0-9]+)/$', views.display, name='display'),
+	#here it tries to match the url with the pattern localhost/display/(some name).
+	#if a match is found then it redirects to the viwes.display function view.
 ]

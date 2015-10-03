@@ -17,8 +17,8 @@
 {% block content_nav %}
 	<ul >
 	 	{% for object in a %}
-	 		<a href="/display/{{ object.book_title }}/" ><img  src="/static/myapp/img/{{ object.book_image }}" alt="no image" /></a>
-	 		<li ><a href="/display/{{ object.book_title }}/" >{{ object.book_title }}</a></li>
+	 		<a href="/myapp/display/{{ object.book_title }}/" ><img  src="/static/myapp/img/{{ object.book_image }}" alt="no image" /></a>
+	 		<li ><a href="/myapp/display/{{ object.book_title }}/" >{{ object.book_title }}</a></li>
 	 	{% endfor %}
 </ul>
 {% endblock %}
