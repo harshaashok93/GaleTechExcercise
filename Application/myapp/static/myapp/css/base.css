@@ -1,0 +1,57 @@
+#body
+{
+    background-image: url("/static/myapp/img/text2.jpg") ;
+    background-size: cover;
+    margin: 30px;
+}
+#header {
+    background-color:none;
+    color:DarkRed;
+    text-align: center;
+    font-family: ariel;
+    float: center;
+    
+}
+#nav {
+    background-color: BurlyWood;
+    overflow-y:scroll;
+    border-radius: 7px;
+    line-height:30px;
+    height:400px;
+    width:20%;
+    float:left;
+    margin-right: 5px;
+    padding:10px;	      
+}
+#section {
+    border-radius: 7px;
+    background-size: cover;
+    float: right;
+    width: 73%;
+    background-image: url("/static/myapp/img/text3.jpg");
+    min-height: 400px;
+    margin-bottom: 10px;
+    padding:10px;	 	 
+}
+#footer {
+    border-radius: 7px;
+    background-image: url("/static/myapp/img/text1.jpg") ;
+    color:white;
+    clear:both;
+    text-align:center;
+    min-height: 140px;
+    padding:10px;	
+}
+#intro
+{
+    color:black;
+    color:DarkGreen;
+    font-family: "lucida calligraphy",arial,'serif';
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: yellow 0px 0px 5px, orange 1px 1px 5px, red 2px 2px 5px;
+}
+a.link
+{
+    text-decoration: none;
+}

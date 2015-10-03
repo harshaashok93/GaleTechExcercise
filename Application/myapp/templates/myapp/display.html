@@ -1,0 +1,11 @@
+{% extends "myapp/base.html" %}
+
+{% block content_section %}
+	<div >
+		<img  src="/static/myapp/img/{{ art.book_image }}" alt="cant display" style="float:left;height:350px;width:200px;">
+	</div>
+	<div >
+		<div id="title"> {{ art.book_title }} :</div>
+		<p id="description" style="color:white">{{ art.book_description }} </p>
+	</div>
+{% endblock %}

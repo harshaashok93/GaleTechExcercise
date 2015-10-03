@@ -1,0 +1,23 @@
+#title
+{
+	margin-left: 10px;
+	color:blue ;
+	font-family: Papyrus;
+	font-weight: bolder;
+	font-size: 2em;
+	text-shadow: yellow 0px 0px 8px,yellow 0px 0px 8px,yellow 0px 0px 8px;
+	font-style: italic;
+}
+#description
+{
+	padding: 10px;
+	text-align: justify;
+	font-size: 19px;
+}
+#t
+{
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	
+	text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
